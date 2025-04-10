@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Aiden - Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            flex: 1;
+        }
+
+        .hero-content {
+            max-width: 50%;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .hero-content h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #00aaff;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 16px;
+            color: #b0b0b0;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .btn-primary {
+            background: #00aaff;
+            color: #fff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: #0088cc;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+        }
+
+        .btn-secondary:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        .hero-image {
+            max-width: 40%;
+            background-repeat: no-repeat;
+        }
+
+        .hero-image img {
+            width: 90%;
+            border-radius: 10px;
+        }
+
+        .subscribe-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #ff0000;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Kawthar.</div>
+        <nav>
+            <a routerLink="/">Home</a>
+            <a routerLink="/about">About</a>
+            <a href="#">Projet</a>
+            <a href="#">CV</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Kawthar Mouslim</h1>
+            <h2>Full stack Developer</h2>
+            <p>Un développeur fullstack est un expert qui travaille sur le frontend (interface utilisateur) et le backend (serveurs et bases de données) d'une application web, gérant tout le processus de développement..</p>
+            <div class="buttons">
+                <button class="btn btn-primary">Linkded</button>
+                <button class="btn btn-secondary">Git hub</button>
+            </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/img1.jpg">
+        </div>
+    </section>
+
+
+</body>
+</html>
+
+
