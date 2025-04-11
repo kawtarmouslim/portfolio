@@ -1,0 +1,26 @@
+[
+    {
+      "titre": "SportFlow",
+      "description": "Plateforme de gestion de clubs sportifs avec authentification et gestion des séances.",
+      "technologies": ["Java EE", "MySQL", "Bootstrap"],
+      "lien": "https://github.com/username/sportflow",
+        "image": "assets/Sportflow.jpg"
+    },
+    {
+      "titre": "MyPortfolio",
+      "description": "Portfolio personnel pour présenter mes projets web.",
+      "technologies": ["Angular", "TypeScript", "SCSS"],
+      "lien": "https://github.com/username/myportfolio",
+      "image": "assets/portfolio.webp"
+
+    },
+    {
+      "titre": "TodoApp",
+      "description": "Application de gestion de tâches avec API REST.",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "lien": "https://github.com/username/todoapp",
+      "image": "assets/images.jpg"
+
+    }
+  ]
+  
